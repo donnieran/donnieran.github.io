@@ -1,4 +1,6 @@
-_site/
+_site
+node_modules
 .DS_Store
-.*.swp
-.idea
+*/.DS_Store
+*/*/.DS_Store
+*.sh
