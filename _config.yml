@@ -1,7 +1,7 @@
 # Site settings
 title: Don's blog
 SEOTitle: 冉东的博客 | Donnie blog
-header-img: img/home-bg.jpg
+header-img: img/page-bc-main.jpg
 email: randongchn@gmail.com
 description: "关于嵌入式linux, 汽车电子 | 冉东， Embedded sofrware Engineer，| 这里是 @Don冉东 的个人博客，与你一起发现更大的世界。"
 keyword: "冉东, Don, don, donnie, donnie blog, 冉东的博客,  博客, 个人网站, 嵌入式, linux, 车联网，嵌入式，汽车电子"
@@ -14,7 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 weibo_username:     donnie2016
 zhihu_username:     donnie2016
-github_username:   donnieran
+github_username:    donnieran
 #twitter_username:  donnie2016
 #facebook_username: donnie2016
 
