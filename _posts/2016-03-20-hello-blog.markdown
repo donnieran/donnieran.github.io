@@ -46,16 +46,16 @@ jekyll即是我们博客的内容来源，可生成静态网页上传后显示�
 我的步骤是：
 
 * [ruby](https://www.ruby-lang.org/en/downloads/)及devkit, 特别注意devkit的安装方式.
-	{% highlight ruby linenos %}
-	'cd devkit // 目的是将当前目录转移到devkit解压路径'
-	'ruby dk.rb init'
-	'在配置文件里面需要加入相应的路径'
-	'ruby dk.rb install'
-	{% endhighlight %}
-
-
 * 通过gem install jekyll 命令安装jekyll的软件包，可能由于国外网站的关系下了，可以用[淘宝镜像源](https://ruby.taobao.org/)替换原有资源。
 * 安装node.js, python软件。
+
+安装Devkit需进行如下操作：
+	{% highlight rouge %}
+	cd devkit // 目的是将当前目录转移到devkit解压路径
+	ruby dk.rb init
+	在配置文件里面需要加入相应的路径
+	ruby dk.rb install'
+	{% endhighlight %}
 
 
 至此所需环境已经搭建完毕，可以新建一个工程目录在本地调试。**jekyll工程文件的组织可参照官方网站**。
@@ -74,11 +74,11 @@ jekyll即是我们博客的内容来源，可生成静态网页上传后显示�
 个人博客仓促上线，很多地方并未完善，但前后也花了近1个月的时间，学到了很多东西，但不忘初衷，尽早开始blog才是正途。
 
 关于此blog规划：
+
 * 博客主要关于技术，linux, c, c++, 以提升自己能力记录总结学习过程为主。
 * 完善此博文，加入具体指令。
 * 优化完善网页，按自己需求加入新特性，修改UI，头像等，流量分析等，前端涉及到的知识还是蛮多的。
 
 ## update
 
-2016/3/21 22:31
-V1.0 邮箱：randongchn@gmail.com
+2016/3/21 22:31 V1.0 邮箱：randongchn@gmail.com
