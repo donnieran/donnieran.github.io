@@ -4,7 +4,7 @@ title:      "Hello blog!"
 subtitle:   " \"Everything for a reason.\""
 date:       2016-03-20 20:39:00
 author:     "Don"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/black.jpg"
 tags:
     - 生活
     - linux 
@@ -46,14 +46,17 @@ jekyll即是我们博客的内容来源，可生成静态网页上传后显示�
 我的步骤是：
 
 * [ruby](https://www.ruby-lang.org/en/downloads/)及devkit, 特别注意devkit的安装方式.
+	{% highlight ruby linenos %}
+	'cd devkit // 目的是将当前目录转移到devkit解压路径'
+	'ruby dk.rb init'
+	'在配置文件里面需要加入相应的路径'
+	'ruby dk.rb install'
+	{% endhighlight %}
 
-	'cd devkit // 目的是将当前目录转移到devkit解压路径
-	ruby dk.rb init
-	在配置文件里面需要加入相应的路径
-	ruby dk.rb install'
 
 * 通过gem install jekyll 命令安装jekyll的软件包，可能由于国外网站的关系下了，可以用[淘宝镜像源](https://ruby.taobao.org/)替换原有资源。
 * 安装node.js, python软件。
+
 
 至此所需环境已经搭建完毕，可以新建一个工程目录在本地调试。**jekyll工程文件的组织可参照官方网站**。
 
