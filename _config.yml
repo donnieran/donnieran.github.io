@@ -44,10 +44,10 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-#duoshuo_username: huxblog
+#Duoshuo settings
+duoshuo_username: donnie2016
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+duoshuo_share: ture                     # set to false if you want to use Comment without Sharing
 
 
 
