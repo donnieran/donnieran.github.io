@@ -63,7 +63,7 @@ ba_track_id: 4b81008513e532dddf11994c94fbb8f5
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "努力上进，非资深，专注于linux学习和开发，为智能汽车贡献一份力量。"
+sidebar-about-description: "从事嵌入式软件开发工作，对linux有浓厚兴趣，关注新技术。"
 sidebar-avatar: /img/portrait-donnie.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
